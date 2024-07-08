@@ -1,0 +1,127 @@
+.max_width_conatainer_1{
+    background-image: url(https://assets.website-files.com/649189cd213c45a9d650f194/64929042c63f0d96605e850c_hero-bg.jpg);
+    min-height: 790px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.triangle_shaped_image{
+    width: 60px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+.triangle_shaped_image img{
+    width: 100%;
+}
+.content_1_page{
+    position: relative;
+
+    width: 1190px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all .7s;
+}
+.left_written_side{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.left_written_side img{
+    width: 90px;
+}
+.para_1{
+    width: 90%;
+    line-height: 70px;
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+.para_2{
+    width: 75%;
+}
+.para_3{
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.green_button {
+    margin-top: 20px;
+    background-color: #098B51;
+    color: white;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    height: 58px;
+    width: 160px;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+.green_button:hover {
+    background-color: #07294D;
+    position: relative;
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width:1250px) {
+    .content_1_page{
+      transform: scale(0.8);
+    }
+    
+}
+@media screen and (max-width:1100px) {
+    .content_1_page{
+        max-width: 550px;
+        padding: 50px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: scale(1);
+        gap: 70px;
+    }
+.triangle_shaped_image{
+    display: none;
+}
+    .para_1{
+        width: 100% !important;
+    }
+    .para_2{
+        width: 100% !important;
+    }
+    .image_4_style img{
+         width: 100%; 
+        margin: auto; 
+    }
+    
+
+}
+
+@media screen and (max-width:635px) {
+    .para_1{
+      font-size: 45px;
+      line-height: 49px;
+      padding-bottom: 5px;
+    }
+   
+}
+@media screen and (max-width:490px) {
+    .para_1{
+      font-size: 37px;
+      line-height: 39px;
+      padding-bottom: 5px;
+    }
+   
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0 ;
+}
+
+.moving_images {
+    max-width: 1100px;
+    margin: 120px auto;
+    overflow: hidden;
+
+}
+
+.continues_moving_logo {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    white-space: nowrap;
+    animation: slide 13s infinite linear ;
+
+}
+
+@keyframes slide {
+    from {
+        right: 8%;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+.head_tile{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    width: 60%;
+    margin: 80px auto;
+
+}
+
+@media screen and (max-width:1250px) {
+    .padding_do_ise{
+        padding: 0 20px;
+    }
+    .head_tile{
+        width: 100%;
+    }
+}
+@media screen and (max-width:680px) {
+   
+    .head_tile{
+    font-size: 35px;
+    }
+}
+@media screen and (max-width:480px) {
+   
+    .head_tile{
+    font-size: 30px;
+    padding-bottom: 10px;
+    }
+}

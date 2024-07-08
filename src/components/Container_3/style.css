@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.description_of_data{
+    text-align: center;
+}
+.Events{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(8, 8, 43);
+}
+
+@media screen and (max-width:1005px) {
+    .are_yaar_yeh_kya_hogya{
+        width: 90% !important;
+    }
+    
+}
+@media screen and (max-width:478px) {
+    .Events{
+        font-size: 35px;
+    }
+    .are_yaar_yeh_kya_hogya{
+        padding-bottom: 30px !important;
+    }
+    
+}
+
+
+.are_yaar_yeh_kya_hogya{
+    color: rgb(69, 68, 68);
+    font-size: 17px;
+    width:40%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.ek_or_background_color {
+    background-color: #F5F5F5;
+    min-height: 400px;
+}
+
+.max_width_fir_se {
+    max-width: 1190px;
+    margin: auto;
+    padding: 120px 0;
+}
+
+.map_image_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 50px;
+    padding: 0 15px;
+
+}
+
+.image_inside_1 {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-left: 20px;
+    transition: all 0.6s;
+
+}
+
+.map_venue {
+    width: 48%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.image_2 {
+    width: 100%;
+    border-radius: 12px;
+    transition: all 0.6s;
+
+}
+.card_banao:hover .image_2{
+    transform: scale(1.1);
+}
+.details_hover:hover{
+    color:#098B51;
+}
+.card_banao {
+    min-height: 260px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: all .6s;
+
+}
+
+@media screen and (max-width:1087px) {
+    .map_image_card {
+        margin: auto;
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width:805px) {
+
+    .map_image_card {
+        margin: auto;
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width:587px) {
+    .map_image_card {
+        grid-template-columns: none;
+        grid-gap: 30px;
+        padding: 0;
+
+    }
+
+    .card_banao {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;
+        gap: 0;
+        padding: 0;
+
+    }
+
+    .image_inside_1 {
+
+        width: 90%;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .image_2 {
+        width: 100%;
+    }
+
+    .map_venue {
+        width: 78%;
+        padding-top: -90px;
+        padding-bottom:20px;
+    }
+}

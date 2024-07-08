@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dull_color{
+    font-weight:200 ;
+    color: rgb(161, 160, 160);
+}
+.tile_kya{
+    padding-top: 90px;
+    text-align: center;
+    margin: auto;
+}
+.Courses_name{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.gumnaam{
+    margin: auto;
+    width: 35%;
+}
+@media screen and (max-width:1305px) {
+    .gumnaam{
+        width: 90%;
+    }
+}
+@media screen and (max-width:514px) {
+    .max_width_A{
+    padding: 40px 0  90px 0 !important
+}
+}
+
+.back_of_content_7 {
+    background-color: #F5F5F5;
+}
+
+.max_width_A {
+    max-width: 1190px;
+    margin: auto;
+    padding: 90px 0;
+}
+
+.article_15 {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+}
+
+@media screen and (max-width:1250px) {
+    .article_15{
+        padding:  20px;
+    }
+    
+}
+@media screen and (max-width:568px) {
+    .article_15{
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+
+    }
+    
+}
+.card_10a {
+    /* border: 1px solid; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.card_10a:hover .image_inside_ab {
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.bahut_sari_photos {
+    width: 100%;
+    /* border: 1px solid; */
+    overflow: hidden;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.image_inside_ab {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+
+}
+
+
+.details_course {
+    width: 100%;
+}
+
+.details_of_course {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.duration_fee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mein_toh_toot_gaya{
+    background-color: #F5F5F5;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    border: 1px solid rgb(210, 210, 210);
+    font-size: 18px;
+   font-weight: 600;
+transition: all .5s ;
+    text-transform: capitalize;
+}
+
+.mein_toh_toot_gaya:hover{
+   background-color:  #098B51;
+   transform: translateY(-5px);
+   color: white;
+   font-weight: 600;
+
+}
+.hover_details3:hover{
+    color: #098B51;
+}

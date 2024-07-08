@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kya_karoon_2 {
+    max-width: 1190px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s;
+}
+
+.describe_details_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    transition: all 0.7s;
+
+
+}
+
+.sundar_kanya_2 {
+    width: 100%;
+    transition: all 0.7s;
+    position: relative;
+    /* padding: 20px; */
+}
+
+.sundar_kanya_2 img {
+    width: 100%;
+}
+
+.jaldi_kar_bhai_2 {
+    box-shadow: 0 4px 12px 4px #f2f2f2;
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 127px;
+    gap: 20px;
+    justify-content: space-between;
+    transition: all 0.7s;
+    cursor: pointer;
+
+}
+.jaldi_kar_bhai_2:hover{
+    background-color: #07294D;
+    color: white;
+    transform:scale(1.05);
+   
+}
+.jaldi_kar_bhai_2:hover .a9{
+    background-color: white;
+}
+.a9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #098b511c;
+    color: #098B51;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.mein_toh_gaya_kaam_se {
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:1250px) {
+    .kya_karoon_2 {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .sundar_kanya_2 {
+        transform: scale(1);
+    }
+
+    .kya_karoon_2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+}
+
+@media screen and (max-width:970px) {
+    .kya_karoon_2 {
+        padding: 50px 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .jaldi_kar_bhai_2 {
+
+        justify-content: unset;
+    }
+
+    .sundar_kanya_2 {
+        transform: scale(0.9);
+    }
+
+    .describe_details_2 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .para_a1 {
+        font-size: 35px !important;
+    }
+
+}

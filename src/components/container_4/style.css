@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kya_karoon {
+    max-width: 1190px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.7s;
+}
+
+.describe_details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    transition: all 0.7s;
+
+
+}
+
+.sundar_kanya {
+    width: 100%;
+    transition: all 0.7s;
+
+}
+
+.sundar_kanya img {
+    width: 100%;
+}
+.jaldi_kar_bhai{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.7s;
+
+}
+.a8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #098b512f;
+    color: #098B51;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1250px) {
+    .kya_karoon {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .sundar_kanya {
+        transform: scale(1);
+    }
+    .kya_karoon {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+}
+
+@media screen and (max-width:970px) {
+    .kya_karoon {
+        padding: 50px 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .sundar_kanya {
+        transform: scale(0.9);
+    }
+
+    .describe_details {
+        width: 80%;
+    }
+}
+@media screen and (max-width:660px) {
+    .para_a1 {
+       font-size: 35px !important;
+    }
+  
+}

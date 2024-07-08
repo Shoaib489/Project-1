@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.max_width_conatainer_2{
+    margin: 100px 0;
+
+}
+.center_mein_karo {
+    max-width: 1190px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Department {
+    font-size: 50px;
+    font-weight: 600;
+    color: #07294D;
+}
+
+.Provide_para {
+    padding-top: 10px;
+    width: 70%;
+    color: rgb(68, 68, 68);
+}
+
+.View_more {
+    font-weight: 600;
+}
+.dikkat_aarahi_he{
+    width: 70%;
+}
+.rotate_A {
+    position: relative;
+    transform: rotate(-90deg) !important;
+}
+.View_more:hover {
+    cursor: pointer;
+    color: #098B51;
+}
+
+@media screen and (max-width:668px) {
+    .center_mein_karo{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .dikkat_aarahi_he{
+        width: 100%;
+    }
+    .Provide_para{
+        width: 100%;
+        font-size: 17px;
+    }
+    .View_more{
+        width: 100%;
+        padding-top: 40px;
+       
+    }
+
+}
+.max_width_5 {
+    max-width: 1190px;
+    margin: 70px auto;
+}
+
+.divide_in_parts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+}
+
+.courses_no_1 {
+    cursor: pointer;
+    transition: all 0.7s;
+    height: 106px;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 12px 4px #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo_inside_1 {
+    transition: all 0.5s;
+}
+
+.divide_in_parts :hover.courses_no_1 {
+    transform: translateY(-8px);
+
+    .logo_inside_1 {
+        transform: scale(1.2);
+    }
+
+}
+
+.kya_fayda_style_ka:hover {
+    color: #098B51;
+}
+
+@media screen and (max-width:1260px) {
+    .max_width_5 {
+        padding: 0 30px;
+    }
+    .center_mein_karo{
+        padding: 0 30px;
+
+    }
+    .center_mein_karo{
+        padding: 0 30px;
+
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .divide_in_parts {
+        grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+    }
+
+}

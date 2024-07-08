@@ -1,0 +1,119 @@
+.shop_2_searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 85px;
+}
+
+.change_color_of_import_icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  /* font-size: 14px; */
+  color: #098B51;
+  background-color:white;
+
+}
+.size_change{
+  width: 20px;
+}
+
+.change_color_of_import_icons:hover {
+  color: white;
+  background-color: #098B51;
+  cursor: pointer;
+}
+
+
+.dropbtn_2 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height:95px;
+
+  }
+  
+  .dropdown_2{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height:100%;
+
+  }
+
+  
+   .dropdown-content_2 { 
+    top: 100%;
+    display: none;
+    position: absolute;
+    background-color:#ffffff;
+    min-width:100%;
+    /* padding-top: 15px; */
+    /* margin-bottom: 55px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    /* border: 1px solid rgb(0, 0, 0); */
+  }
+  
+
+  /* .dropdown-content_2:hover li{
+    background-color: #098B51 !important;
+    color: white;
+  } */
+  .dropdown-content_2 li {
+    padding: 5px 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown_2:hover .dropdown-content_2 {
+    display: block;
+  } 
+  .extra_line_bottom{
+    /* width: 250px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: 1;
+    height: 1px;
+    border-bottom: 1px solid grey;
+
+  }
+  .icons_in_search_bar{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid grey; */
+
+  }
+  .extra_line_bottom{
+    width: 300px;
+    border-bottom: 1px solid grey;
+position: relative;
+top: -20px;
+  }
+
+  @media screen and (max-width:1220px) {
+    .shop_2_searchbar{
+        padding: 20px;
+    }
+    
+  }
+  @media screen and (max-width:690px) {
+    .shop_2_searchbar{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start;
+    }
+    
+  }
