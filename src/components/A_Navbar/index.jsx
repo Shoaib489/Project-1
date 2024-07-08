@@ -13,7 +13,7 @@ const Navbar = () => {
                 <p>Notice: All class will be remain close...</p>
                 <div className='singup_right_side'>
                     {/* <div> */}
-                    <p>Login</p>
+                    <p>hbb</p>
                     <span>|</span>
                     <p>Register</p>
                     <span>|</span>
