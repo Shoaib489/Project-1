@@ -71,7 +71,7 @@ const Blog = () => {
     return <>
         <Navbar />
 
-        <Blogcontainer heading="Blog-Post" post="Home-Blog" />
+        <Blogcontainer  heading="Blog-Post" post="Home-Blog" />
 
         <div className='max_width_2'>
             <div className="articles">
